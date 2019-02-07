@@ -1,4 +1,6 @@
 from flask import Flask, flash,url_for, redirect, render_template, request, session, abort
+
+import os
 #from flask_bootstrap import bootstrap
 app = Flask(__name__)
 @app.route('/')
