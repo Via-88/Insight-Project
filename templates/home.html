@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    {% if title %}
+    <title>Insight Blog - {{ title }}</title>
+    {% else %}
+    <title> Insight Blog </title>
+    {% endif %}
+
+  </head>
+  <body>
+    <h1> {{ posts[0]}}</h1>
+    <p> {{ posts[1]}} </p>
+
+  </body>
+</html>
