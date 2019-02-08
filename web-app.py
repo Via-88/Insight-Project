@@ -11,7 +11,7 @@ def index():
 @app.route('/send')
 def send():
     subject = request.args.get('subject')
-    output = 'condition, size, color'
+    output = ['condition',' size', 'color']
     return render_template(
             'send.html',
             subject = subject,

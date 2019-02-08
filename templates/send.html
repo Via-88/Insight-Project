@@ -48,7 +48,11 @@
      </p>
 
 
-      <P>   <h2> {{output}} </h2>
+      <P>   <h2> {%for des in output%}
+         <li><strong>{{des}}</strong>
+         </li>
+         {% endfor %}
+       </h2>
       </p>
     </div>
 
